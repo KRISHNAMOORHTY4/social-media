@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.regfullcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(blue,lightblue);
+
+}
+
+.reginner {
+    background-color: white;
+    text-align: center;
+    width: 35%;
+    padding: 2rem;
+    border-radius: 10px;
+
+
+    @media screen and (max-width:800px) {
+        width: 80%;
+
+    }
+
+    @media screen and (min-width:800px) {
+        width: 40%;
+
+    }
+
+
+
+}
+
+.input-box {
+    width: 100%;
+}
+
+.input-box input {
+    width: 60%;
+    margin: 0.8rem;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+.regbtn {
+    margin: 0.8rem;
+    width: 80%;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+
+}
+
+.regbtn button {
+    background-color: blue;
+}
+
+.regbtn button:hover {
+    background-color:blue;
+}
+
+.Icon {
+    position: relative;
+    right: 20px;
+    top: 5px;
+
+}
+
+.para button {
+    border: none;
+    background-color: transparent;
+
+}
+
+.reginner h2 {
+    font-weight: 700;
+    text-decoration: underline;
+}
