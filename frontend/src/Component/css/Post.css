@@ -1,0 +1,9 @@
+#postbtn{
+    background-color: blue;
+    color: white;
+}
+#postmain{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 2rem;
+}

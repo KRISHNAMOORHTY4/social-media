@@ -1,0 +1,84 @@
+.loginfullcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(blue,lightblue);
+
+
+}
+
+.logininner {
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    padding: 2rem;
+    border-radius: 10px;
+
+    @media screen and (max-width:800px) {
+        width: 80%;
+
+    }
+
+    @media screen and (min-width:800px) {
+        width: 40%;
+
+    }
+
+
+
+
+}
+
+.inputlo-box {
+    width: 100%;
+
+}
+
+.inputlo-box input {
+    width: 80%;
+    margin: 0.8rem;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.logbtn {
+    margin: 0.8rem;
+    width: 80%;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 5px;
+    background-color: blue;
+    margin-left: 2rem;
+}
+
+
+
+.logbtn:hover {
+    background-color: blue;
+
+}
+
+.Iconlog {
+    position: relative;
+    right: 40px;
+    top: 5px
+}
+
+.paral button {
+    border: none;
+    background-color: transparent;
+
+}
+
+.logininner h2 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.paral {
+    margin-top: 0.8rem;
+}
